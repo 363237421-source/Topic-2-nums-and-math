@@ -47,7 +47,7 @@
             Console.WriteLine("");
             Console.WriteLine("Finally, how many centimeters are in 5'6''");
             Console.WriteLine("");
-            Console.WriteLine("...That would be " + ((5 * 12) / 2.54) + ("cm")); //I don't know how to round
+            Console.WriteLine("...That would be " + Math.Round((5 * 12) / 2.54, 2) + ("cm")); //I don't know how to round
         }
     }
 }
